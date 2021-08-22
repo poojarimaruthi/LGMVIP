@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+.navbar {
+  margin-top: 10px;
+  border-radius: 5px;
+  background: #41ddb3 !important;
+  border-radius: 11px;
+  border-radius: 11px;
+  background: linear-gradient(145deg, #2d3033, #36393d);
+  border-radius: 90px;
+  background: linear-gradient(145deg, #6e7172, #838688);
+  box-shadow: 19px 19px 43px #c8ccce, -19px -19px 43px #acb0b3;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: rgb(41 95 80) !important;
+}
+
+#titleNavbar {
+  color: #33844c;
+  margin-top: 20px;
+}
+
+.getUser {
+  border-width: 0;
+  border-radius: 15px;
+  background: linear-gradient(9deg, #41ddb3, #8ef0b3);
+  box-shadow: 5px 9px 26px #8fc991, 4px -5px 26px #b3fbb5;
+}
+
+.getUser:hover {
+  border-radius: 5px;
+  border-radius: 15px;
+  background: linear-gradient(351deg, #41ddb3, #acf2ae);
+  box-shadow: 7px 19px 32px #9edda0, -16px -12px 25px #a4e7a6;
+}
+
+body {
+  background-color: #b8f2e6;
+}
+.loader_container {
+  height: 60px;
+  width: 320px;
+  margin: 50px auto;
+  border-radius: 20px;
+  background-color: #b8f2e6;
+  box-shadow: 6px 6px 9px #a8a8a8, -6px -6px 9px #ffffff;
+}
+.loaderCircle {
+  position: relative;
+  width: 300px;
+  min-height: 20px;
+  margin: 20px auto;
+
+  top: 20px;
+}
+
+.loaderCircle::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+
+  width: 300px;
+  min-height: 20px;
+  background-color: rgba(11, 11, 11, 0.5);
+}
+
+.loaderCircle::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 30px;
+  min-height: 20px;
+  background-color: #41ddb3;
+  animation: load 1.5s linear infinite;
+}
+@keyframes load {
+  0% {
+    left: 0;
+    width: 0px;
+  }
+  50% {
+    left: 150px;
+    width: 150px;
+  }
+  100% {
+    left: 300px;
+    width: 0px;
+  }
+}
+
+.container-card {
+  padding: 4%;
+}
+.AvatarImage {
+  height: 140px;
+  width: 140px;
+  max-width: 100%;
+  margin: 5% auto;
+  border-radius: 100%;
+}
+
+.card {
+  width: 19rem;
+  height: 370px;
+  margin: 0 auto;
+  background-color: #ededed;
+  border-width: 0px;
+  border-radius: 30px;
+  background: linear-gradient(313deg, #00ffca, #407c6a);
+  box-shadow: 15px 15px 26px #7cecb3, -15px -15px 26px #b0f7e2;
+}
+
+.card:hover {
+  background: linear-gradient(44deg, #ff0023, #145fe7);
+  box-shadow: 15px 15px 26px #373bc6, -15px -15px 26px #e38080;
+}
